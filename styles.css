@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4a688;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+h4 {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  text-align: center;
+}
+
+
+.paragraph {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#url-github {
+  background-color: #daebe8;
+  text-align: center;
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+}
+
+.lists-container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  align-self: center;
+  background-color: #f9ccac;
+  display: flex;
+  justify-content: center;
+}
+
+.lists {
+  height: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.list-item {
+  height: 210px;
+  width: 300px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .paragraph {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .lists {
+    height: auto;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+  }
+}

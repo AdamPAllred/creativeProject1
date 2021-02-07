@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4a688;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+.paragraph {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#url-github {
+  background-color: #daebe8;
+  text-align: center;
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+}
+
+.section-container {
+  padding-bottom: 50px;
+  align-self: center;
+  background-color: #f9ccac;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.section-item {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.sidenav {
+  height: auto;
+  width: auto;
+  background-color: #f4a688;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .paragraph {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .section {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .sidenav {
+    border: 1px solid black;
+    height: auto;
+    width: 160px;
+    position: fixed;/
+    top: 15;
+    right: 0;
+    background-color: #f4a688;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  p {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
